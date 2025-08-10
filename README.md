@@ -121,4 +121,4 @@ This project is licensed under the MIT License.
 
 ## Auther
 
-Hritik Roushan
+- Hritik Roushan
