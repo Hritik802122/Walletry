@@ -150,6 +150,7 @@ export async function categorizeExpense(description: string): Promise<string> {
           content: `Categorize this expense: "${description}"`,
         },
       ],
+      
       temperature: 0.1,
       max_tokens: 20,
     });
