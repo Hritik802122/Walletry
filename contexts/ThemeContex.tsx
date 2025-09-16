@@ -31,6 +31,7 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
   }, []);
 
   useEffect(() => {
+    
     if (mounted) {
       localStorage.setItem('theme', theme);
       if (theme === 'dark') {
