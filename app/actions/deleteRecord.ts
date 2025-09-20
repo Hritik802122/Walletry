@@ -8,6 +8,7 @@ async function deleteRecord(recordId: string): Promise<{
   error?: string;
 }> {
   const { userId } = await auth();
+  
 
   if (!userId) {
     return { error: 'User not found' };
