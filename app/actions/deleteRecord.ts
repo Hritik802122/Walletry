@@ -11,6 +11,7 @@ async function deleteRecord(recordId: string): Promise<{
 
   if (!userId) {
     return { error: 'User not found' };
+    
   }
 
   try {
