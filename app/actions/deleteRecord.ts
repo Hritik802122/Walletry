@@ -20,6 +20,7 @@ async function deleteRecord(recordId: string): Promise<{
         id: recordId,
         userId,
       },
+      
     });
 
     revalidatePath('/');
