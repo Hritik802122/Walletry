@@ -15,6 +15,7 @@ import { useState, useEffect } from 'react';
 
 // Register Chart.js components
 ChartJS.register(
+  
   CategoryScale,
   LinearScale,
   BarElement,
