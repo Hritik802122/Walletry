@@ -51,7 +51,7 @@ const BarChart = ({ records }: { records: Record[] }) => {
 
   const isMobile = windowWidth < 640;
 
-  // Aggregate expenses by date
+ 
   const aggregateByDate = (records: Record[]) => {
     const dateMap = new Map<
       string,
