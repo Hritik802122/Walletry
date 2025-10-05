@@ -24,7 +24,7 @@ ChartJS.register(
   Legend
 );
 
-// Define the type for a record
+
 interface Record {
   date: string; // ISO date string
   amount: number; // Amount spent
