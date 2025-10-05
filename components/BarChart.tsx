@@ -40,7 +40,7 @@ const BarChart = ({ records }: { records: Record[] }) => {
     // Set initial window width
     setWindowWidth(window.innerWidth);
 
-    // Add resize listener
+   
     const handleResize = () => {
       setWindowWidth(window.innerWidth);
     };
