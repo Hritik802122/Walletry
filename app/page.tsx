@@ -26,6 +26,7 @@ export default async function HomePage() {
                 <img
                   src={user.imageUrl}
                   alt={`${user.firstName}&#39;s profile`}
+                  
                   className='w-16 h-16 sm:w-20 sm:h-20 rounded-2xl border-2 border-white dark:border-gray-600 shadow-lg'
                 />
                 <div className='absolute -bottom-1 -right-1 w-5 h-5 sm:w-6 sm:h-6 bg-gradient-to-r from-green-400 to-green-500 rounded-full border-2 border-white dark:border-gray-800 flex items-center justify-center'>
