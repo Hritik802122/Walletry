@@ -15,6 +15,7 @@ export default async function HomePage() {
     <main className='bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-gray-200 font-sans min-h-screen transition-colors duration-300'>
       {/* Mobile-optimized container with responsive padding */}
       <div className='max-w-7xl mx-auto px-3 sm:px-4 lg:px-8 py-4 sm:py-6 lg:py-8'>
+        
         {/* Mobile-first responsive grid */}
         <div className='grid grid-cols-1 lg:grid-cols-2 gap-4 sm:gap-6'>
           {/* Left Column - Stacked on mobile */}
